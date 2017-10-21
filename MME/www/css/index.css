@@ -38,7 +38,10 @@ body {
     text-transform: uppercase;
     width: 100%;
 }
-
+@keyframes example {
+    from {transform: scale(1);}
+    to {transform: scale(0.7);}
+}
 /* Portrait layout (default) */
 .app {
     background: url(../img/logo.png) no-repeat center top;
@@ -50,7 +53,9 @@ body {
     text-align: center;
     padding: 180px 0px 0px 0px;
     margin: -115px 0px 0px -112px;
-     
+     animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 /* Landscape layout (with min-width) */
