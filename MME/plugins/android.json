@@ -15,7 +15,14 @@
     },
     "admob": {
       "PACKAGE_NAME": "com.realdealagency.MME"
+    },
+    "cordova-plugin-admob-simple": {
+      "PACKAGE_NAME": "com.realdealagency.MME"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-admob-sdklibs": {
+      "PACKAGE_NAME": "com.realdealagency.MME"
+    }
+  }
 }
